@@ -1,0 +1,20 @@
+/* TEAM */
+	Created by: KJ Sampat
+	Contact: kj.sampat@yahoo.com
+	Site: kjsampat.com
+	Twitter: @kjsampat
+	From:Detroit, MI, United States
+
+/* THANKS */
+
+	Pagelime.com
+	960.gs
+	HTML5
+	CSS3
+	Placehold.it
+
+/* SITE */
+	Last update:05/23/2012
+	Language:English
+	Doctype:HTML5
+	IDE: Dreamweaver CS5.5, FileZilla

@@ -1,0 +1,254 @@
+/*	
+	PL Starter Theme 
+*/
+
+
+/*Global Styles*/
+body {
+  background: #f2f2f2;
+  color: #333;
+  font-size: 16px;
+  height: auto;
+  font-weight:200;
+}
+html, body { /*stickey footer*/
+	height: 100%;
+} 
+a:link, a:visited {
+  color: #fff;
+  text-decoration: none;
+}
+a:hover, a:active{
+  color: #fff;
+  text-decoration: underline;
+}
+h2 {
+	color: #666;
+	font-size: 18px;
+	font-weight: normal;
+	font-variant:small-caps;
+	margin-bottom: 10px;
+}
+@font-face {
+    font-family: 'PacificoRegular';
+    src: url('../fonts/Pacifico-webfont.eot');
+    src: url('../fonts/Pacifico-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Pacifico-webfont.woff') format('woff'),
+         url('../fonts/Pacifico-webfont.ttf') format('truetype'),
+         url('../fonts/Pacifico-webfont.svg#PacificoRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+img{
+	max-width: 100%;
+}
+
+
+/*Pull Down Styles
+.pulldown{
+	height: 10px;
+	background-color: #000;
+	overflow: hidden;
+	text-align: center;
+}
+.pulldown a{
+	color: #000;
+	font-size: 11px;
+	text-transform: uppercase;
+}
+.pulldown:hover{
+	height: 30px;
+}
+.pulldown:hover a:link, .pulldown:hover a:visited {
+	color: #666;
+	text-decoration: none;
+}
+.pulldown:hover a:hover, .pulldown:hover a:active {
+	color: #f2f2f2;
+	text-decoration: none;
+}
+.pulldown{   Controls Transistion Effects
+	transition: height .5s ease-in-out;
+	-moz-transition: height .5s ease-in-out;  Firefox 4 
+	-webkit-transition: height .5s ease-in-out; Safari and Chrome 
+	-o-transition: height .5s ease-in-out;  Opera 
+}
+.pulldown a{
+	transition: color .5s ease-in;
+	-moz-transition: color .5s ease-in;  Firefox 4 
+	-webkit-transition: color .5s ease-in;  Safari and Chrome 
+	-o-transition: color .5s ease-in;  Opera 
+}  */
+
+
+/* Header styles */
+header{
+	min-height: 100px;
+	line-height: 100px;
+	background-color: #5C0002;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#450003), to(#5C0002)); /* Saf4+, Chrome */
+	background-image: -webkit-linear-gradient(top, #450003, #5C0002); /* Chrome 10+, Saf5.1+, iOS 5+ */
+	background-image:    -moz-linear-gradient(top, #450003, #5C0002); /* FF3.6+ */
+	background-image:     -ms-linear-gradient(top, #450003, #5C0002); /* IE10 */
+	background-image:      -o-linear-gradient(top, #450003, #5C0002); /* Opera 11.10+ */
+	background-image:         linear-gradient(to bottom, #450003, #5C0002);
+}
+.logo {
+	font-size: 24px;
+	color: #f2f2f2;
+	font-family: PacificoRegular, Georgia, "Times New Roman", Times, serif;
+}
+
+
+/*Nav Styles*/
+.mainNav ul{
+	list-style:none;
+	float: right;
+	margin-bottom: 0;
+}
+.mainNav li{
+	float: left;
+	display: inline-block;
+	text-transform: uppercase;
+	color: #f2f2f2;
+	font-size: 12px;
+	/*background-color: blue;*/
+}
+.mainNav a:link, .mainNav a:visited{
+	color: #f2f2f2;
+	text-decoration: none;
+	border-bottom: 1px solid #5C0002;
+	padding-bottom: 3px;
+}
+.mainNav a:hover, .mainNav a:active{
+	color: #f2f2f2;
+	text-decoration: none;
+	border-bottom: 1px solid #f2f2f2;
+	padding-bottom: 3px;
+}
+.mainNav a{  /* Controls Transistion Effects*/
+	transition: border-bottom 1s;
+	-moz-transition: border-bottom 1s; /* Firefox 4 */
+	-webkit-transition: border-bottom 1s; /* Safari and Chrome */
+	-o-transition: border-bottom 1s; /* Opera */
+}
+
+
+/*Main Graphic Styles*/
+.mainGraphic {
+	padding-bottom: 40px;
+	margin-bottom: 40px;
+	background-color: #5C0002;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#5C0002), to(#94090D)); /* Saf4+, Chrome */
+	background-image: -webkit-linear-gradient(top, #5C0002, #94090D); /* Chrome 10+, Saf5.1+, iOS 5+ */
+	background-image:    -moz-linear-gradient(top, #5C0002, #94090D); /* FF3.6+ */
+	background-image:     -ms-linear-gradient(top, #5C0002, #94090D); /* IE10 */
+	background-image:      -o-linear-gradient(top, #5C0002, #94090D); /* Opera 11.10+ */
+	background-image:         linear-gradient(to bottom, #5C0002, #94090D);
+}
+
+
+/*Call To Action Styles - Not used on content pages*/
+.callToAction{
+	margin-bottom: 40px;
+	
+}
+
+
+/*Main Content Styles - Not used on the homepage*/
+.mainContent{
+	padding-top: 40px;
+}
+.posted{
+	font-size: 11px;
+	color: #5C0002;
+	text-transform:uppercase;
+	margin-bottom: 40px;
+}
+
+
+/*Highligts Styles - Not used on homepage*/
+.highlights img{
+	margin-bottom: 20px;
+}
+.highlights h2{
+	padding-top: 20px;
+}
+.highlights a:link, .highlights a:visited{
+	text-decoration: none;
+	color: #333;
+	border-top: 2px solid #fff;
+	border-bottom: 2px solid #fff;
+}
+.highlights a:hover, .highlights a:active{
+	text-decoration: none;
+	color: #333;
+	border-top: 2px solid #5C0002;
+	border-bottom: 2px solid #5C0002;
+}
+.highlights a{
+	transition: border 2s;
+	-moz-transition: border 2s; /* Firefox 4 */
+	-webkit-transition: border 2s; /* Safari and Chrome */
+	-o-transition: border 2s; /* Opera */
+}
+
+
+/*Main gallery and Side gallery styles */
+.gallery{
+	padding-top: 40px;
+}
+.gallery img{
+	padding-bottom: 20px;
+}
+.sideGallery{
+	margin-bottom: 20px;
+}
+
+
+/*Footer & stickey Footer styles*/
+footer{
+	background-color: #666;
+	height: 200px;
+	margin-top: 20px;
+	padding-top: 20px;
+	color: #f2f2f2;
+}
+.twitter{
+	text-align: right;
+}
+#wrap {
+	min-height: 100%;
+}
+#main {
+	overflow:auto;
+	padding-bottom: 180px;
+}  /* must be same height as the footer */
+footer {position: relative;
+	margin-top: -180px; /* negative value of footer height */
+	height: 180px;
+	clear:both;} 
+body:before { /*Opera Fix*/
+  content:"";
+	height:100%;
+	float:left;
+	width:0;
+	margin-top:-32767px;
+}
+
+
+/* IMPORTANT
+You also need to include this conditional style in the <head> of your HTML file to feed this style to IE 6 and lower and 8 and higher.
+
+<!--[if !IE 7]>
+	<style type="text/css">
+		#wrap {display:table;height:100%}
+	</style>
+<![endif]-->
+*/
+
+
+/*Need to target an element inside the PL editor use the below CSS class*/
+.cms-page-editor-preview .pulldown{
+	display: none;
+}
