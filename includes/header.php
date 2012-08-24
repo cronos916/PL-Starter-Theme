@@ -11,8 +11,6 @@
 	echo "PL Starter Template";  //fallback title 
   }
 ?></title>
-<link rel="stylesheet" href="css/reset.css" />  <!-- uses 960 grid system - Learn more at http://960.gs -->
-<link rel="stylesheet" href="css/text.css" />
 <link rel="stylesheet" href="css/default.css" />
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>  <!-- Link to hosted jQuery Library - Remove if unnecessary -->
 <!--[if !IE 7]>
@@ -20,35 +18,6 @@
 		#wrap {display:table;height:100%}
 	</style>
 <![endif]-->
-<noscript>
-<link rel="stylesheet" href="css/mobile.css" />
-</noscript>
-<script>
-// Edit to suit your needs.
-var ADAPT_CONFIG = {
-  // Where is your CSS?
-  path: 'css/',
-
-  // false = Only run once, when page first loads.
-  // true = Change on window resize and page tilt.
-  dynamic: true,
-
-  // First range entry is the minimum.
-  // Last range entry is the maximum.
-  // Separate ranges by "to" keyword.
-  range: [
-    '0px    to 760px  = 324.css',
-    '760px  to 980px  = 720.min.css',
-    '980px  to 1280px = 960.min.css',
-    '1280px to 1600px = 1200.min.css',
-    '1600px to 1940px = 1560.min.css',
-    '1940px to 100000000002540px = 1920.min.css',
-    //'2540px to        = 2520.min.css'
-  ]
-};
-</script>
-<script src="js/adapt.min.js"></script>
-
 </head>
 <body>
 <div id="wrap">

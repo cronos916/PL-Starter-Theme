@@ -7,14 +7,14 @@
 
 /* THANKS */
 
-	Pagelime.com
+	Pagelime
 	960.gs
 	HTML5
 	CSS3
 	Placehold.it
 
 /* SITE */
-	Last update:05/23/2012
+	Last update:08/23/2012
 	Language:English
 	Doctype:HTML5
-	IDE: Dreamweaver CS5.5, FileZilla
+	IDE: Adobe Brackets

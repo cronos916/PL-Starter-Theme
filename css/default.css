@@ -2,8 +2,13 @@
 	PL Starter Theme 
 */
 
+/* Additional CSS files */
+@import url("reset.css");
+@import url("text.css");
+@import url("960.css");
 
-/*Global Styles*/
+
+/* Global Styles */
 body {
   background: #f2f2f2;
   color: #333;
@@ -11,7 +16,7 @@ body {
   height: auto;
   font-weight:200;
 }
-html, body { /*stickey footer*/
+html, body { /* stickey footer */
 	height: 100%;
 } 
 a:link, a:visited {
@@ -99,7 +104,6 @@ header{
 	font-family: PacificoRegular, Georgia, "Times New Roman", Times, serif;
 }
 
-
 /*Nav Styles*/
 .mainNav ul{
 	list-style:none;
@@ -112,7 +116,6 @@ header{
 	text-transform: uppercase;
 	color: #f2f2f2;
 	font-size: 12px;
-	/*background-color: blue;*/
 }
 .mainNav a:link, .mainNav a:visited{
 	color: #f2f2f2;
@@ -151,7 +154,6 @@ header{
 /*Call To Action Styles - Not used on content pages*/
 .callToAction{
 	margin-bottom: 40px;
-	
 }
 
 
@@ -237,9 +239,8 @@ body:before { /*Opera Fix*/
 }
 
 
-/* IMPORTANT
+/* IMPORTANT - Sticky Footer in IE
 You also need to include this conditional style in the <head> of your HTML file to feed this style to IE 6 and lower and 8 and higher.
-
 <!--[if !IE 7]>
 	<style type="text/css">
 		#wrap {display:table;height:100%}
