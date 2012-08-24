@@ -15,6 +15,4 @@
             <?php include("includes/aside.php"); ?>  
         </div>	
     </section>
-    <?php include("includes/footer.php"); ?>   
-</body>
-</html>
+    <?php include("includes/footer.php"); ?>

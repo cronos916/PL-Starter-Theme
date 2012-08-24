@@ -1,4 +1,4 @@
-	<?php include("includes/header.php"); ?>  <!-- this pulls the header.php file from the includes folder -->
+	<?php $pageTitle = "PL Starter Template: Home"; include("includes/header.php"); ?>  <!-- this pulls the header.php file from the includes folder -->
     <section class="mainGraphic"> <!-- I use a section tag to denote a new main section of the website. -->
         <div class="container_12 clearfix">  <!-- using a class of container_12 sets up a grid that is 960 pixels wide with 12 columns-->
         	<div class="grid_12">
@@ -52,13 +52,3 @@
         </div>	<!-- Yes Yes I know this doesnt include any fancy lightbox stuff. But your a rockstar developer now, you add it. -->
     </section>
     <?php include("includes/footer.php"); ?>  <!-- I prefer to use includes for common areas of the site that are reused -->
-</body>
-</html>
-
-<!----------------------------------
-	
-	PL Starter Theme by KJ Sampat
-	kjsampat.com
-	@kjsampat 
-	
-	-------------------------------->
