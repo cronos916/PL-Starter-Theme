@@ -1,0 +1,10 @@
+                        <!-- Navigation file code -->                                                                                      
+                            <ul>
+                                #foreach( $navItem in $navItems )
+                                  <li>
+                                     <a href="$navItem.URL"> $navItem.Title</a>          
+                                  </li>
+                                #end
+                            </ul>
+                        
+                    

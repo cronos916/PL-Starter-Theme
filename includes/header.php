@@ -1,3 +1,11 @@
+<!----------------------------------
+	
+	PL Starter Theme by KJ Sampat
+	kjsampat.com
+	@kjsampat 
+	
+	-------------------------------->
+
 <!DOCTYPE html>  <!-- html5 baby! -->
 <html lang="en">
 <head>
@@ -12,8 +20,8 @@
   }
 ?></title>
 <link rel="stylesheet" href="css/default.css" />
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>  <!-- Link to hosted jQuery Library - Remove if unnecessary -->
-<!--[if !IE 7]>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>  <!-- Link to hosted jQuery -->
+<!--[if !IE 7]>  for sticky footer
 	<style type="text/css">
 		#wrap {display:table;height:100%}
 	</style>
@@ -33,8 +41,8 @@
             <div class="container_12 clearfix">
                 <div class="grid_6 logo">PL Starter Template
                 </div>
-                <nav id="mainNav" class="cms-navigation grid_6 mainNav">  <!-- activates the Navigation Menu in PL -->
-                    <ul>  <!-- use an unordered list to create navigation - Not p and br tags! -->
+                <nav id="mainNav" class="cms-navigation grid_6 mainNav">  <!-- activates the Navigation Menu in PL - See cms-nav.txt -->
+                    <ul> 
                         <li><a href="index.php">Home</a></li>
                         <li><a href="content.php">Content</a></li>
                         <li><a href="#">Item 3</a></li>

@@ -12,11 +12,3 @@
 </footer> 
 </body>
 </html>
-
-<!----------------------------------
-	
-	PL Starter Theme by KJ Sampat
-	kjsampat.com
-	@kjsampat 
-	
-	-------------------------------->
